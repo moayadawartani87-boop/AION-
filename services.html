@@ -1,115 +1,61 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="ar">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AION Services</title>
-<style>
-body {margin:0;font-family:Arial,sans-serif;background:#000;color:gold;}
-header {background:#111;padding:20px;text-align:center;border-bottom:1px solid gold;}
-nav a {color:gold;margin:0 15px;text-decoration:none;font-weight:bold;}
-section {padding:50px;text-align:center;}
-.service {background:#222;padding:20px;margin:20px auto;width:90%;max-width:500px;border:1px solid gold;border-radius:10px;}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خدمات AION</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-
-<header>
-<h1>AION Services</h1>
+<body><!-- Navbar -->
 <nav>
-    <a href="index.html">Home</a>
-    <a href="control.html">Control Panel</a>
-    <a href="services.html">Services</a>
+    <ul>
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="services.html" class="active">الخدمات</a></li>
+        <li><a href="contact.html">اتصل بنا</a></li>
+    </ul>
 </nav>
-</header>
 
-<section>
-<div class="service">
-<h2>Education</h2>
-<p>Advanced global learning programs for all ages.</p>
-</div>
+<!-- Main Content -->
+<main>
+    <h1>خدمات AION</h1>
+    <div class="services-container">
+        <div class="service-card">
+            <img src="images/service1.png" alt="التعليم">
+            <h2>التعليم</h2>
+            <p>تقديم محتوى تعليمي مبتكر مع AI Chat لمساعدة المستخدمين على التعلم بشكل أسرع.</p>
+        </div>
 
-<div class="service">
-<h2>Technology</h2>
-<p>Cutting-edge solutions in AI, Robotics, and Software.</p>
-</div>
+        <div class="service-card">
+            <img src="images/service2.png" alt="الصحة">
+            <h2>الصحة</h2>
+            <p>خدمات ومعلومات صحية متقدمة لمتابعة الصحة واللياقة.</p>
+        </div>
 
-<div class="service">
-<h2>Finance</h2>
-<p>Global financial tools, investments, and analysis.</p>
-</div>
+        <div class="service-card">
+            <img src="images/service3.png" alt="الهندسة">
+            <h2>الهندسة</h2>
+            <p>مشاريع هندسية وتقنيات متقدمة لدعم الابتكار والإبداع.</p>
+        </div>
 
-<div class="service">
-<h2>Space Exploration</h2>
-<p>Innovative projects in space and satellite technologies.</p>
-</div>
-</section>
+        <div class="service-card">
+            <img src="images/service4.png" alt="الأعمال">
+            <h2>الأعمال</h2>
+            <p>خدمات الأعمال، استشارات وتخطيط استراتيجي للشركات والمستثمرين.</p>
+        </div>
+
+        <div class="service-card">
+            <img src="images/service5.png" alt="الفضاء">
+            <h2>الفضاء</h2>
+            <p>تقديم محتوى وخدمات متقدمة في مجال الفضاء والهندسة الفضائية.</p>
+        </div>
+    </div>
+</main>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2026 AION. جميع الحقوق محفوظة.</p>
+</footer>
+
+<script src="js/main.js"></script>
 
 </body>
 </html>
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #000000, #1a1a1a);
-    color: gold;
-}
-
-header {
-    background: #111;
-    padding: 20px;
-    text-align: center;
-    border-bottom: 2px solid gold;
-    box-shadow: 0 4px 10px rgba(255, 215, 0, 0.3);
-}
-
-nav a {
-    color: gold;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-nav a:hover {
-    color: #fff;
-    text-shadow: 0 0 8px gold;
-}
-
-section {
-    padding: 50px;
-    text-align: center;
-}
-
-button {
-    background: gold;
-    color: black;
-    border: none;
-    padding: 15px 30px;
-    font-size: 18px;
-    cursor: pointer;
-    border-radius: 8px;
-    transition: all 0.3s;
-    box-shadow: 0 4px 8px rgba(255, 215, 0, 0.4);
-}
-
-button:hover {
-    background: #ffd700;
-    transform: scale(1.1);
-    box-shadow: 0 6px 12px rgba(255, 215, 0, 0.6);
-}
-
-.card, .service {
-    background: #222;
-    padding: 20px;
-    margin: 20px auto;
-    width: 90%;
-    max-width: 500px;
-    border: 1px solid gold;
-    border-radius: 12px;
-    transition: 0.3s;
-}
-
-.card:hover, .service:hover {
-    background: #333;
-    box-shadow: 0 4px 15px rgba(255, 215, 0, 0.5);
-}
